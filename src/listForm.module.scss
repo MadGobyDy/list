@@ -1,0 +1,12 @@
+
+.listForm {
+  margin-bottom: 20px;
+
+  &__text {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    user-select: none;
+  }
+}

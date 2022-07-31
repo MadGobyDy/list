@@ -1,0 +1,27 @@
+.list {
+  border-top: 1px solid #4e4e4e;
+  padding-top: 20px;
+  border-radius: 0;
+  align-items: center;
+
+  &__item {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4e4e4e;
+  }
+
+  &__spinner {
+    display: flex;
+    justify-self: center;
+  }
+
+  &__empty {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+}
