@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App tests App to match snapshot 1`] = `
+<div
+  class="app"
+  data-testid="app"
+>
+  <div
+    class="listForm"
+  >
+    <div
+      class="input-group"
+    >
+      <span
+        class="listForm__text"
+      >
+        Добавить фрукт в список: 
+      </span>
+      <input
+        class="form-control"
+        placeholder="Напишите название фрукта"
+      />
+      <button
+        class="btn btn-primary"
+        data-testid="inputButton"
+        type="button"
+      >
+        Добавить
+      </button>
+    </div>
+  </div>
+  <div
+    class="list list-group"
+    data-testid="list"
+  >
+    <span
+      class="list__empty"
+      data-testid="emptyList"
+    >
+      Список фруктов пуст
+    </span>
+  </div>
+</div>
+`;
